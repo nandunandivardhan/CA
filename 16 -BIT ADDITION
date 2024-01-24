@@ -1,0 +1,7 @@
+mov di,4000h
+mov ax,[3000h]
+mov bx,[3002h]
+add ax,bx
+mov [3003h],ax
+mov [3006h],cx
+hlt
